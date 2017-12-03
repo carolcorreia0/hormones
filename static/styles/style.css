@@ -1,0 +1,222 @@
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+   z-index:-3;
+}
+
+#o_left:hover, #o_right:hover, #trompa_left:hover, #trompa_right:hover, #block_down:hover, #block_center:hover, #block_up:hover {
+    fill: rgba(153, 102, 102,0.8)
+}
+
+#mainDiv{
+    top:100px;
+    height:500px;
+}
+body {
+
+    background-image: url("/static/img/rosa-colagensBG22.png");
+    background-color: rgba(89, 17, 49,0.3);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    z-index:-3;
+}
+
+#border_top{
+    width: 100%;
+    /*height: 50px;*/
+    border:0px;
+    z-index: 10;
+    transition-property: height;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+#border_bottom{
+    width: 100%;
+    /*height: 50px;*/
+    border:0px;
+    z-index: 10;
+    transition-property: height;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+
+#svg-container {
+  /*background-color: red;*/
+  height: 100%;
+  width:100%;
+  /*top:50%;*/
+  margin:auto;
+}
+
+#birdwrapper {
+    position:absolute;
+    top:45%;
+    height:60%;
+    width:60%;
+    /*bottom:50%;*/
+    left:52%;
+    transform:translate(-50%, -50%);
+}
+
+
+#centerDiv {
+    position: absolute;
+    top:5%;
+    left: 25%;
+    width: 50%;
+    height: 90%;
+    /*border: 2px solid #fff  ;*/
+    transition-property: left;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    background-image: url("/static/img/woman2.png");
+    background-repeat: no-repeat;
+    /*background-attachment:local;*/
+    background-size: 100%;
+    background-position: center;
+    z-index:5;
+}
+
+#btn-close-modal {
+                text-align: center;
+                cursor:pointer;
+                color:#fff;
+                border-radius:50px;
+                padding: 5px 15px;
+                font-size: 15px;
+                font-weight: 500;
+                border:2px solid #fff;
+                display:inline-block;
+                margin:20px;
+                float: left;
+                z-index:10;
+            }
+
+.owl-carousel .item-video{
+    z-index:15;
+    }
+
+.owl-nav{
+    left:1500px;}
+
+.video{
+    align-content: center;
+    padding-top:15%;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+a.link{
+    color: #FFF;
+    cursor: pointer;
+}
+
+a.link:hover{
+    color: rgba(89, 17, 49,1); ;
+    font-weight: 700;
+
+
+}
+button.btn {
+    background-color: rgba(89, 17, 49,1);
+    /*color: #FFF;*/
+    padding: 10px 10px;
+    font-size: 0.9em;
+    font-family: "Times New Roman", Times, serif;   
+    text-transform: uppercase;
+    float: right;}
+
+p.title{
+    margin: 0px;
+    font-family: 'Pontano Sans', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 1vh;
+
+}
+
+a {
+    color:#FFF;
+}
+
+a:hover {
+    color:rgba(89, 17, 49,1);
+}
+
+
+p.content{
+    width:99%; 
+    font-family: 'Pontano Sans', sans-serif;
+    line-height: 120%;
+    text-align: justify;
+    font-style: normal;
+    font-size: 2vh;
+    /*font-weight: bold;*/
+    color: #FFF;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px; 
+}
+
+br {
+    line-height: 150%;
+    }
+br2 {
+    line-height: 200%;
+    }
+
+blockquote {
+font-family: Georgia, serif;
+font-size: 0.9vw;
+font-style: italic;  
+text-align: justify;
+padding-right: 50px;
+width: 99%;
+margin: 1vh 1vh;
+padding-left: 12vw;
+line-height: 1.45;
+position: relative;
+color: #fff;
+border-width: 0px;
+}
+
+blockquote:before {
+display: block;
+content: "\201C";
+font-size: 80px;
+position: absolute;
+left: 9vw;
+top: -20px;
+color: #FFF;
+}
+
+blockquote cite {
+color: #FFF;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+}
+ 
+blockquote cite:before {
+content: "\2014 \2009";
+}
+
+#content {
+    width:100%;
+    height:99%;
+    background:transparent;
+}
+
+.modal-content{
+    height: auto;
+    width: 99%;
+    z-index:-10;  /*important to not overlay close button*/
+}
